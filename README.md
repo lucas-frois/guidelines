@@ -20,6 +20,10 @@ Learn to communicate properly, to ask for help and to listen more. [Asynchronous
 Make your code maintenable.  
 Check [for the Github Guide](https://guides.github.com/features/wikis/) and [a handbook](https://github.com/jamiebuilds/documentation-handbook) to learn more about.
 
+### Contributing
+Make your projects open to contributions is a good practice.  
+Look for some examples to create your own guidelines. [A good contributing.md template](https://gist.github.com/PurpleBooth/b24679402957c63ec426) and [Github guide](https://help.github.com/en/github/building-a-strong-community/setting-guidelines-for-repository-contributors).
+
 ### Testing
 Personal opinion: **[unit tests](http://softwaretestingfundamentals.com/unit-testing/) are indispensable and all developers must implement it**.  
 You can look for *test-driven development* or other kinds or *n-driven developemnt* (BDD, DDD) if you want.  
