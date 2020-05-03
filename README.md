@@ -1,42 +1,49 @@
 # Guidelines
 Guidelines to general development. Made by [@frvs](https://frvs.now.sh/).
 
-###### Disclaimer: for this guide I've use [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Check for more info about markdown.
+###### Note: for this guide I've use [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Check for more info about Markdown.
 
 ### Versioning 
-Use Semantic Versioning (aka [SemVer](https://semver.org/)). At the same time, check about [CHANGELOGs](https://keepachangelog.com/en/1.1.0/).
+Use Semantic Versioning or [SemVer](https://semver.org/)), the commonest versioning system.   
+You probably have seem it before: something like `1.3.2` version. [Telegram changelog](https://desktop.telegram.org/changelog) is a good example.  
+Also, check about how to keep a good [CHANGELOG](https://keepachangelog.com/en/1.1.0/).
 
-### Git flow 
-Use [Git Flow](https://danielkummer.github.io/git-flow-cheatsheet/index.html) to help you in a development n deploy flow. 
+### Git flow
+On a personal project, isn't common to make a good using of **branching**.  
+If you're working for a company or pretends, take a look at [Git Flow](https://danielkummer.github.io/git-flow-cheatsheet/index.html) to help you. 
 
 ### Communication
-Learn about [asynchronous communication](https://doist.com/blog/asynchronous-communication/).
+Soft skills makes a huge difference.  
+Learn to communicate properly, to ask for help and to listen more. [Asynchronous communication](https://doist.com/blog/asynchronous-communication/) is a good way to start it.
 
 ### Documentation 
-Make your code maintenable. Check [here](https://guides.github.com/features/wikis/) and [here](https://github.com/jamiebuilds/documentation-handbook) to learn more about.
+Make your code maintenable.  
+Check [for the Github Guide](https://guides.github.com/features/wikis/) and [a handbook](https://github.com/jamiebuilds/documentation-handbook) to learn more about.
 
 ### Testing
 Personal opinion: **[unit tests](http://softwaretestingfundamentals.com/unit-testing/) are indispensable and all developers must implement it**.  
-You can look for *test-driven development* or other kinds or *n-driven developemnt* (BDD, DDD) if you want.
+You can look for *test-driven development* or other kinds or *n-driven developemnt* (BDD, DDD) if you want.  
 Other common test types are stress tests and integration tests. Check that out if you're developing something important.
 
 ### HTTP protocols
-Most of production software in 2020 are client-server based. Starting there, you should know something about ways to comunicate on the both sides of your application.  
-Years ago, you could use SOAP (*Simple Object Access Protocol*) to do this.  
-However, REST is the present. Learn about [RESTful APIs](https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9). 
+Most of production software in 2020 are client-server based.  
+Starting there, you should know something about ways to comunicate on the both sides of your application.  
+Years ago, you could use *Simple Object Access Protocol* (SOAP) to do this. However, Representational State Transfer (REST) is the present. Learn about [RESTful APIs](https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9). 
 
 ### Stacktraces
-Being able to know what's going wrong in your code is **essential**. In my junior-mid developer experience, isn't common to do code without any error.  
+Being able to know what's going wrong in your code is **essential**. 
+In my junior-mid developer experience, isn't common to do code without any error.  
 Learn to read stacktrackes. Google it from your favorite language: *how to read [dotnet/your language] stacktrace*. This must be useful.
 
 ### Atomic commits
-Atomicity is a common topic on technology development. You could heard about it in [databases](https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/), [front-end patterns](https://bradfrost.com/blog/post/atomic-web-design/) and so on.
+Atomicity is a common topic on technology development.  
+You could heard about it in [databases](https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/), [front-end patterns](https://bradfrost.com/blog/post/atomic-web-design/) and so on.  
 Here, we want to talk about [**atomic commits**](https://www.freshconsulting.com/atomic-commits/) best practices. 
 
 ### Deployment
 ![devopsjoke](https://github.com/frvs/guidelines/blob/master/devopsjoke.jpeg "DevOps  joke")
 Since **DevOps** turned into a technology keyword, the [**full cycle developer**](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) became more and more valuable.  
-###### check the Netflix's blog post about **full cycle development**.
+###### Check the Netflix's blog post about **full cycle development**.
 It'll be nice if you're able to code **and deploy** your application. There are two options for that:
 
 ### Zero config deploy
@@ -44,7 +51,7 @@ The Vercel product, [Now](https://vercel.com/docs), is a place to deploy your ap
 For back-end focused alternatives, [Heroku](https://devcenter.heroku.com/start) is awesome too. Take a look.
 
 ### Other deploy options: Dockerfile and pipelines 
-For other deploy players, I'll probably face a Dockerfile plus .yml file (stands to pipeline file) to deploy your application.
+For other deploy players, I'll probably face a Dockerfile plus .yml file (stands to pipeline file) to deploy your application.  
 Look for some [Dockerfile guide](https://rollout.io/blog/a-beginners-guide-to-the-dockerfile/) and google a tutorial for your favorite deploy player pipeline configuration.
 ```
 e.g. google: [circle ci/other player] pipeline configuration
