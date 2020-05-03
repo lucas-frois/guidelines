@@ -24,6 +24,7 @@ Check [for the Github Guide](https://guides.github.com/features/wikis/) and [a h
 ### Contributing
 Make your projects open to contributions is a good practice.  
 Look for some examples to create your own guidelines: [a good contributing.md template](https://gist.github.com/PurpleBooth/b24679402957c63ec426) and [Github guide](https://help.github.com/en/github/building-a-strong-community/setting-guidelines-for-repository-contributors).
+Make sure to read the guidelines from the Open Source Projects (OSS) you want to contribute.
 
 ### Testing
 Personal opinion: **[unit tests](http://softwaretestingfundamentals.com/unit-testing/) are indispensable and all developers must implement it**.  
