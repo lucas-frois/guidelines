@@ -33,7 +33,29 @@ Learn to read stacktrackes. Google it from your favorite language: *how to read 
 Atomicity is a common topic on technology development. You could heard about it in [databases](https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/), [front-end patterns](https://bradfrost.com/blog/post/atomic-web-design/) and so on.
 Here, we want to talk about [**atomic commits**](https://www.freshconsulting.com/atomic-commits/) best practices. 
 
-![devopsjoke](https://github.com/frvs/guidelines/blob/master/devopsjoke.jpeg "DevOps  joke")
-
 ### Deployment
-Since **DevOps** turned into a technology keyword, 
+![devopsjoke](https://github.com/frvs/guidelines/blob/master/devopsjoke.jpeg "DevOps  joke")
+Since **DevOps** turned into a technology keyword, the [**full cycle developer**](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) became more and more valuable.  
+###### check the Netflix's blog post about **full cycle development**.
+It'll be nice if you're able to code **and deploy** your application. There are two options for that:
+
+### Zero config deploy
+The Vercel product, [Now](https://vercel.com/docs), is a place to deploy your apps just connecting to Github. It's awesome.  
+For back-end focused alternatives, [Heroku](https://devcenter.heroku.com/start) is awesome too. Take a look.
+
+### Other deploy options: Dockerfile and pipelines 
+For other deploy players, I'll probably face a Dockerfile plus .yml file (stands to pipeline file) to deploy your application.
+Look for some [Dockerfile guide](https://rollout.io/blog/a-beginners-guide-to-the-dockerfile/) and google a tutorial for your favorite deploy player pipeline configuration.
+```
+e.g. google: [circle ci/other player] pipeline configuration
+```
+### Learning 
+There's a confusing difference between *Documentation/reference guide*, *How-to guides* and *Learn-by-example guides*.  
+Take a look at [Divio](https://documentation.divio.com/). It covers the differences and how to read each tutorial.
+
+### Conclusion
+foo bar text etcetera
+
+###### Useful links, blogs and etc
+###### * [Roadmap.sh](https://roadmap.sh/)
+###### * [My blog](https://frvs.now.sh/blog)
