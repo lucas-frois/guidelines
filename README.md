@@ -31,8 +31,8 @@ You can look for *test-driven development* or other kinds or *n-driven developem
 Other common test types are **stress tests** and **integration tests**. Check that if you're developing something important.
 
 ### HTTP protocols
-Most of production software in 2020 are client-server based.  
-Starting there, you should know something about ways to comunicate on the both sides of your application.  
+Most of production software in 2020 are client-server applications.  
+Based on that, you should know something about ways to comunicate on the both sides of your application.  
 Years ago, you could use *Simple Object Access Protocol* (SOAP) to do this. However, Representational State Transfer (REST) is the present.  
 Learn about [RESTful APIs](https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9). 
 
