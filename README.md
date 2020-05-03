@@ -49,11 +49,11 @@ Here, we want to talk about [**atomic commits**](https://www.freshconsulting.com
 ### Deployment
 ![devopsjoke](https://github.com/frvs/guidelines/blob/master/devopsjoke.jpeg "DevOps  joke")
 Since **DevOps** turned into a technology keyword, the [**full cycle developer**](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) became more and more valuable.  
-###### `Check the Netflix's blog post about **full cycle development**.`
+###### `Check the Netflix's blog post about full cycle development above.`
 It'll be nice if you're able to code **and deploy** your application. There are two main options:
 
 ### Zero config deploy
-You're a newbie on programming and don't want to 
+You're a newbie on programming and don't want to care too much about it, start here.  
 The Vercel product, [Now](https://vercel.com/docs), is a place to deploy your apps just connecting to Github. It's awesome.  
 For back-end focused alternatives, [Heroku](https://devcenter.heroku.com/start) is awesome too. Take a look.
 
