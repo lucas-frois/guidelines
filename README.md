@@ -1,6 +1,8 @@
 # Guidelines
 Guidelines to general development. Made by [@frvs](https://frvs.now.sh/).
 
+###### Disclaimer: for this guide I've use [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Check for more info about markdown.
+
 ### Versioning 
 Use Semantic Versioning (aka [SemVer](https://semver.org/)). At the same time, check about [CHANGELOGs](https://keepachangelog.com/en/1.1.0/).
 
@@ -31,7 +33,7 @@ Learn to read stacktrackes. Google it from your favorite language: *how to read 
 Atomicity is a common topic on technology development. You could heard about it in [databases](https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/), [front-end patterns](https://bradfrost.com/blog/post/atomic-web-design/) and so on.
 Here, we want to talk about [**atomic commits**](https://www.freshconsulting.com/atomic-commits/) best practices. 
 
-![devopsjoke](https://codelabs.nyc3.digitaloceanspaces.com/contents/January2020/opjYQ1DwMbi0enlqegDTl3tpSlhKSSSS.jpeg "DevOps  joke")
+![devopsjoke](https://github.com/frvs/guidelines/blob/master/devopsjoke.jpeg "DevOps  joke")
 
 ### Deployment
-Since **DevOps** turned into a technology keyword 
+Since **DevOps** turned into a technology keyword, 
